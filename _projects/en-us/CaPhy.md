@@ -1,4 +1,5 @@
 ---
+page_id: CaPhy
 layout: page
 title: "CaPhy: Capturing Physical Properties for Animatable Human Avatars"
 description: <h2>ICCV 2023</h2>
@@ -21,7 +22,7 @@ related_publications: caphy_su2023
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include video.liquid path="assets/img/CaPhy/intro.mp4" class="img-fluid rounded z-depth-1" autoplay=true muted=true loop=true controls=true %}
+        {% include video.liquid loading="eager" path="assets/img/CaPhy/intro.mp4" class="img-fluid rounded z-depth-1" autoplay=true muted=true loop=true controls=true %}
     </div>
 </div>
 <div class="caption">
@@ -38,7 +39,7 @@ We present CaPhy, a novel method for reconstructing animatable human avatars wit
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/CaPhy/pipeline.png" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/CaPhy/pipeline.png" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
@@ -53,7 +54,7 @@ We present CaPhy, a novel method for reconstructing animatable human avatars wit
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/CaPhy/results_cmp.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/CaPhy/results_cmp.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
@@ -69,7 +70,7 @@ We present CaPhy, a novel method for reconstructing animatable human avatars wit
 <div class="row">
     <a href="https://suzhaoqi.github.io/assets/pdf/CaPhy.pdf">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/CaPhy/paper.png" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/CaPhy/paper.png" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
     </a>
 </div>
@@ -84,6 +85,6 @@ We present CaPhy, a novel method for reconstructing animatable human avatars wit
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include video.liquid path="assets/img/CaPhy/CaPhy - demo.mp4" class="img-fluid rounded z-depth-1" controls=true %}
+        {% include video.liquid loading="eager" path="assets/img/CaPhy/CaPhy - demo.mp4" class="img-fluid rounded z-depth-1" controls=true %}
     </div>
 </div>
